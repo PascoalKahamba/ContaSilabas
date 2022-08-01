@@ -15,7 +15,7 @@ function mostraSilaba() {
 function somaSilaba() {
   cont = 0;
   for (let conta = 0; conta <= palavraDigitada.value.length; conta++) {
-    if (vogais.includes(palavraDigitada.value[conta]) === true) {
+    if (vogais.includes(palavraDigitada.value[conta])) {
       cont++;
     }
   }
